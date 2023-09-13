@@ -1,0 +1,77 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  whoami
+    4  pwd
+    5  ls
+    6  man ls
+    7  sh
+    8  pwd
+    9  ls
+   10  all
+   11  ls
+   12  ls -a
+   13  ls -la
+   14  pwd
+   15  cd
+   16  cd .
+   17  pwd
+   18  cd ..
+   19  ls -l
+   20  pwd
+   21  cd.
+   22  cd .
+   23  cd ..
+   24  pwd
+   25  ls -la
+   26  pwd
+   27  ls -la
+   28  pwd
+   29  cd .
+   30  pwd
+   31  cd ..
+   32  pwd
+   33  cd ~
+   34  pwd
+   35  sh
+   36  who
+   37  pwd
+   38  who
+   39  cd 
+   40  cd doc
+   41  c
+   42  cd 
+   43  ls
+   44  mkdir ABC
+   45  ls -lt
+   46  ls -l ABC/
+   47  ls -la ABC/
+   48  rmdir ABC/
+   49  ls -la ABC/
+   50  pwd
+   51  ls
+   52  echo $?
+   53  echo jkdh
+   54  echo 12345> a.txt
+   55  ls -lt
+   56  echo 123456 > a.txt
+   57  ls -lt *.txt
+   58  cat a.txt
+   59  hexdump _C a.txt
+   60  echo abcd >> a.txt
+   61  ls -lt *.txt
+   62  cat a.txt
+   63  hechump _C a.txt
+   64  hexdump -C a.txt
+   65  echo "dgh"
+   66  man echo
+   67  echo "dgh\a"
+   68  echo -e "dgh\a"
+   69  echo -e "dgh\df\a"
+   70  echo -e "dgh\n\123\a"
+   71  touch c.txt
+   72  ls -lt *.txt
+   73  man touch
+   74  touch -t 23456 c.txt
+   75  ls -lt *.txt
+   76  history
+   77  history > history_2023_Class_02.txt
