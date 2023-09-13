@@ -1,0 +1,58 @@
+
+[32;1m  Id     Duration CommandLine[0m
+[32;1m  --     -------- -----------[0m
+   1        0.043 ls
+   2        0.442 ls -R
+   3        0.104 ls -a
+   4        0.033 ls -lh
+   5        0.018 ls -A
+   6        0.017 ls -lh
+   7        0.021 pwd -P
+   8        0.011 pwd
+   9        0.066 locate /pictures
+  10        0.065 find /agnes/*.png
+  11        0.016 ls *.png
+  12        0.037 find /*.png
+  13        0.039 find /screenshot.png
+  14        0.035 find ./ -type d -photodirector
+  15        0.033 find /agnes -logo.png
+  16        0.030 ls *.txt
+  17        0.020 pwd -L
+  18        0.020 pwd -logical
+  19        0.018 history
+  20        0.049 history > file2.txt
+  21        0.011 ls
+  22        0.036 diff history_2023_1var.txt file2 > temp.txt
+  23        0.016 cat temp.txt
+  24        0.026 mv temp.txt file2.txt
+  25        0.007 pwd
+  26        0.032 cd /User/agnes/documents
+  27        0.024 cd /User/agnes/OneDrive
+  28        0.021 cd /home/doc
+  29        0.014 cd OneDrive
+  30        0.014 ls
+  31        0.011 cd documents
+  32        0.010 ls
+  33        0.025 cd /Acer/Public
+  34        0.017 cd /user/Public
+  35        0.038 cd /Acer(C:)/agnes/OneDrive
+  36        0.012 cd OneDrive
+  37        0.003 pwd
+  38        0.056 cd~agnes
+  39        0.056 cd~ agnes
+  40        0.030 cd-
+  41        0.007 cd..
+  42        0.002 cd..
+  43        0.002 pwd
+  44        0.026 cd /User/Public
+  45        0.009 ls
+  46        0.024 cd /User/Windows
+  47        0.006 ls
+  48        0.010 cd Desktop
+  49        0.006 ls
+  50        0.016 cd /User/agnes
+  51        0.006 ls
+  52        0.009 cd
+  53        0.009 ls
+  54        0.017 history
+
