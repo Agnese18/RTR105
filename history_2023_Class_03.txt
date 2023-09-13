@@ -123,7 +123,7 @@
   123  ls -lt /bin/ls
   124  /bin/ls
   125  cat /bin/ls
-  126  nano mana_komanda_1.sh
+  126  nano mana_komanda_1.sh -(izveido shell skriptu)
   127  nano
   128  chmod 754
   129  ls -lt mana)komanda_1.sh
