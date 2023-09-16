@@ -1,0 +1,166 @@
+
+[32;1m  Id     Duration CommandLine[0m
+[32;1m  --     -------- -----------[0m
+   1        0.043 ls
+   2        0.442 ls -R
+   3        0.104 ls -a
+   4        0.033 ls -lh
+   5        0.018 ls -A
+   6        0.017 ls -lh
+   7        0.021 pwd -P
+   8        0.011 pwd
+   9        0.066 locate /pictures
+  10        0.065 find /agnes/*.png
+  11        0.016 ls *.png
+  12        0.037 find /*.png
+  13        0.039 find /screenshot.png
+  14        0.035 find ./ -type d -photodirector
+  15        0.033 find /agnes -logo.png
+  16        0.030 ls *.txt
+  17        0.020 pwd -L
+  18        0.020 pwd -logical
+  19        0.018 history
+  20        0.049 history > file2.txt
+  21        0.011 ls
+  22        0.036 diff history_2023_1var.txt file2 > temp.txt
+  23        0.016 cat temp.txt
+  24        0.026 mv temp.txt file2.txt
+  25        0.007 pwd
+  26        0.032 cd /User/agnes/documents
+  27        0.024 cd /User/agnes/OneDrive
+  28        0.021 cd /home/doc
+  29        0.014 cd OneDrive
+  30        0.014 ls
+  31        0.011 cd documents
+  32        0.010 ls
+  33        0.025 cd /Acer/Public
+  34        0.017 cd /user/Public
+  35        0.038 cd /Acer(C:)/agnes/OneDrive
+  36        0.012 cd OneDrive
+  37        0.003 pwd
+  38        0.056 cd~agnes
+  39        0.056 cd~ agnes
+  40        0.030 cd-
+  41        0.007 cd..
+  42        0.002 cd..
+  43        0.002 pwd
+  44        0.026 cd /User/Public
+  45        0.009 ls
+  46        0.024 cd /User/Windows
+  47        0.006 ls
+  48        0.010 cd Desktop
+  49        0.006 ls
+  50        0.016 cd /User/agnes
+  51        0.006 ls
+  52        0.009 cd
+  53        0.009 ls
+  54        0.017 history
+  55        0.026 history >13.09.2023.txt
+  56        0.011 ls
+  57        0.050 ls -lh
+  58        0.019 ls -a
+  59        0.427 ls -R
+  60        0.025 cd /Users/agnes/Dektop
+  61        0.015 cd /Users/agnes/Videos
+  62        0.015 ls
+  63        0.007 pwd
+  64        0.012 cd..
+  65        0.010 ls
+  66        0.022 cat a.txt
+  67        0.022 cat temp.txt
+  68     1:33.926 cat >b.txt
+  69        0.016 cat b.txt
+  70        0.010 ls
+  71        0.027 echo hello > b.txt
+  72        0.005 cat b.txt
+  73        0.011 ls
+  74        0.023 cat a.txt b.txt > c.txt
+  75        0.009 cat c.txt
+  76        0.008 ls
+  77        0.014 cat a.txt b.txt > c.txt
+  78        0.007 ls
+  79        0.090 tac a.txt
+  80        0.001 pwd
+  81        0.017 cat a.txt b.txt > c.txt
+  82       18.279 cat > b.txt
+  83        0.002 cat b.txt
+  84        0.010 ls
+  85        0.005 cat a.txt
+  86        0.001 cat b.txt
+  87        0.012 ls
+  88        0.001 cat c.txt
+  89        0.014 echo hi >> b.txt
+  90        0.002 cat b.txt
+  91        0.005 cat a.txt
+  92        0.052 tac a.txt
+  93        0.012 ls /Users/agnes/Documents
+  94        0.009 ls
+  95        0.011 cd /Users/agnes/Documents
+  96        0.002 ls
+  97        0.003 ls /Users/agnes/Documents
+  98        0.002 ls -R
+  99        0.048 pc a.txt/Users/agnes/Documents
+ 100        0.038 cp a.txt /Users/agnes/Documents
+ 101        0.003 ls
+ 102        0.022 cp a.txt /Users/agnes
+ 103        0.002 ls
+ 104        0.003 cd..
+ 105        0.018 cp a.txt /Users/agnes/Documents
+ 106        0.006 ls /Users/agnes/Documents
+ 107        0.017 cp a.txt b.txt
+ 108        0.004 cat b.txt
+ 109        0.003 cat a.txt
+ 110        0.046 cp -R /Users/agnes/Documents /Users/agnes/Documents_backups
+ 111        0.003 pwd
+ 112        0.011 ls
+ 113        0.011 cd Documents_backups
+ 114        0.008 ls
+ 115        0.003 cd..
+ 116        0.051 nano doc.txt
+ 117        0.049 nano doci.sh
+ 118        0.002 pwd
+ 119        0.009 ls
+ 120        0.014 cd OneDrive
+ 121        0.010 ls
+ 122        0.005 cd..
+ 123        0.012 mv b.txt /Users/agnes/OneDrive
+ 124        0.022 cd Onedrive
+ 125        0.012 ls
+ 126        0.012 mv b.txt newb.txt
+ 127        0.009 ls
+ 128        0.003 cd..
+ 129        0.057 mkdir Music/Songs
+ 130        0.012 cd Music
+ 131        0.005 ls
+ 132        0.020 mkdir -m777 Songs
+ 133        0.003 cd..
+ 134        0.002 cd Music
+ 135        0.006 ls
+ 136        0.023 rm Songs
+ 137        0.001 ls
+ 138        0.002 cd..
+ 139        0.063 touch -am a.txt
+ 140        0.019 ls a.txt
+ 141        0.015 cat b.txt
+ 142        0.012 cd Documents
+ 143        0.010 cat b.txt
+ 144        0.015 cat c.txt
+ 145        0.002 cat a.txt
+ 146        0.052 touch -am a.txt
+ 147        0.004 ls a.txt
+ 148        0.015 echo a.txt >> hello
+ 149        0.005 cat a.txt
+ 150        0.010 echo 5678 >> a.txt
+ 151        0.002 cat a.txt
+ 152        0.046 touch -am a.txt
+ 153        0.003 ls a.txt
+ 154        0.040 history
+ 155        0.035 history > 2023-16sep.txt
+ 156        0.034 history
+ 157        0.003 cd..
+ 158        0.017 history
+ 159        0.024 diff history history_2023_1var.txt 2023-16sep.txt > newfile.txt
+ 160        0.015 cat newfile.txt
+ 161        0.014 ls
+ 162        0.020 history
+
