@@ -1,0 +1,70 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git --version
+    4  pwd
+    5  git clone https://github.com/Agnese18/RTR105
+    6  ls -lt
+    7  ls -lt RTR105
+    8  pwd
+    9  ls -lt
+   10  cd RTR105
+   11  ls -lt
+   12  ls -lta
+   13  cd .git
+   14  ls -lt
+   15  cat config
+   16  cat index
+   17  ls -lt
+   18  cd ..
+   19  cd..
+   20  cd ..
+   21  ls -lt
+   22  nano git-upload
+   23  ls -lt
+   24  cat git-upload
+   25  chmod 754
+   26  ls -lt RTR105
+   27  cd RTR105
+   28  chmod 754
+   29  history
+   30  history > history_2023_20.09.txt
+   31  ./git.upload
+   32  chmod 754
+   33  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
+   34  chmod 754
+   35  ls -lt
+   36  ls -lt ../
+   37  mv ../git-upload ./
+   38  ls -lt ../
+   39  ls -lt
+   40  chmod 754 git-upload 
+   41  cat git-upload 
+   42  ./git-upload 
+   43  cd ..
+   44  ls -lt
+   45  rm -rf RTR105
+   46  ls -lt
+   47  history | grep clone
+   48  git clone https://github.com/Agnese18/RTR105
+   49  ls -lt
+   50  cd RTR105
+   51  ls -lt
+   52  cat git-upload
+   53  nono git-upload
+   54  nano git-upload
+   55  nano history_test.sh
+   56  chmod 754 history_test.sh
+   57  ls -lt
+   58  nano history_test.sh
+   59  date
+   60  man date
+   61  nano history_test.sh
+   62  ./ history_test_4.sh
+   63  ./history_test.sh 04
+   64  ls -lt
+   65  history
+   66  exit
+   67  history
+   68  history > history_2023.09(2).txt
+   69  history
+   70  history > history20.sep.txt
