@@ -1,0 +1,30 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git --version
+    4  pwd
+    5  git clone https://github.com/Agnese18/RTR105
+    6  ls -lt
+    7  ls -lt RTR105
+    8  pwd
+    9  ls -lt
+   10  cd RTR105
+   11  ls -lt
+   12  ls -lta
+   13  cd .git
+   14  ls -lt
+   15  cat config
+   16  cat index
+   17  ls -lt
+   18  cd ..
+   19  cd..
+   20  cd ..
+   21  ls -lt
+   22  nano git-upload
+   23  ls -lt
+   24  cat git-upload
+   25  chmod 754
+   26  ls -lt RTR105
+   27  cd RTR105
+   28  chmod 754
+   29  history
+   30  history > history_2023_20.09.txt
