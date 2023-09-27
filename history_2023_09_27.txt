@@ -1,0 +1,105 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/Agnese18/RTR105
+    4  pwd
+    5  ls -lt
+    6  git clone 
+    7  github clone https://github.com/Agnese18/RTR105
+    8  git clone https://github.com/Agnese18/RTR105
+    9  ls -lt
+   10  rm -rf RTR105/
+   11  git clone https://github.com/Agnese18/RTR105
+   12  ls -lt
+   13  history | grep clone
+   14  cd RTR105/
+   15  mkdir Class_05
+   16  ls -lt
+   17  cd Class_05
+   18  nano first.c
+   19  /RTR105/Class_5
+   20  /RTR105/Class_05
+   21  /RTR105/Class_05$
+   22  gcc first.c
+   23  ls -lt
+   24  a.out
+   25  cat first.c
+   26  cat.out
+   27  gcc first.c
+   28  ls -lt
+   29  a.out
+   30  first.c
+   31  gcc first.c
+   32  ls -lt
+   33  ./a.out
+   34  echo $?
+   35  nano first.c
+   36  ls -lt
+   37  gcc first.c -o first.out
+   38  ls -lt
+   39  ./first.out
+   40  echo $?
+   41  ls -lt
+   42  gcc first.c
+   43  ls -lt
+   44  nano first.c
+   45  diff a.out first.out
+   46  ls -lt
+   47  rm *.out
+   48  nano first.c
+   49  gcc first.c
+   50  ls -lt
+   51  nano first.c
+   52  gcc first.c
+   53  ls -lt
+   54  cat first.c
+   55  cp first.c second.c
+   56  ls -lt
+   57  second.c
+   58  nano second.c
+   59  gcc second.c
+   60  nano second.c
+   61  gcc second.c
+   62  nano second.c
+   63  gcc second.c
+   64  ls -lt
+   65  ./a.out
+   66  cat second.c
+   67  nano second.c
+   68  gcc second.c
+   69  ls -lt
+   70  ./a.out
+   71  nano second.c
+   72  gcc second.c
+   73  ls -lt
+   74  ./a.out
+   75  gcc -E second.c
+   76  gcc -e second.c > second.i
+   77  gcc -E second.c > second.i
+   78  ls -lt
+   79  gcc second.c -o second-from_c.out
+   80  gcc second.i -o second-from-i.out
+   81  gcc second.c -o second-from-c.out
+   82  ls -lt
+   83  gcc -E second.c . second.i
+   84  gcc -S second.c
+   85  ls -lt
+   86  cat second.s
+   87  ls -lt
+   88  gcc second.s -o second-from-s.out
+   89  ls -lt
+   90  gcc -c second.c
+   91  ls -lt
+   92  cat second.o
+   93  ls -lt
+   94  gcc -save-temps second.c
+   95  gcc -Wall -save-temps second.c
+   96  ls -lt
+   97  cd ..
+   98  pwd
+   99  ls -lt
+  100  nano .gitignore
+  101  nano history
+  102  history
+  103  ls -lt
+  104  history 
+  105  history > history_2023_09_27.txt

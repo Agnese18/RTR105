@@ -1,0 +1,8 @@
+# ignore all out fifes
+*.out
+
+# ignore all o files
+*.o
+
+# ignore all i files
+*.i
