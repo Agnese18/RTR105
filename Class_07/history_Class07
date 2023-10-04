@@ -1,0 +1,58 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/Agnese18/RTR105
+    4  cd RTR15
+    5  cd RTR105/
+    6  ls -lt
+    7  mkdir class_07
+    8  cd mkdir class_07
+    9  mkdir Class_07
+   10  cd Class_07
+   11  nano teksts
+   12  nano teksts_Class_07.txt
+   13  nano printf-test.c
+   14  gcc printf-test.c
+   15  ./a.out
+   16  nano tests.1_Class_07.txt
+   17  gcc tests.1_Class_07.txt
+   18  nano printf1-test.c
+   19  gcc printf1-test.c
+   20  ./a.out
+   21  nano printf2-test.c
+   22  gcc printf2-test.c
+   23  ./a.out
+   24  gcc printf2-test.c
+   25  ./a.out
+   26  nano printf-2-test.c
+   27  gcc printf-2-test.c
+   28  ./a.out
+   29  nano printf-2-test.c
+   30  gcc printf-2-test.c
+   31  ./a.out
+   32  nano example.txt
+   33  ls -lt
+   34  rm printf2-test.c
+   35  ls -lt
+   36  gcc printf1-test.c
+   37  ./a.out
+   38  gcc printf-test.c
+   39  ./a.out
+   40  gcc printf-2-test.c
+   41  ./a.out
+   42  nano printf-3-test.c
+   43  gcc printf-3-test.c
+   44  ./a.out
+   45  nano printf-uzd.c
+   46  gcc printf-uzd.c
+   47  nano printf-uzd.c
+   48  gcc printf-uzd.c
+   49  nano printf-uzd.c
+   50  gcc printf-uzd.c
+   51  nano printf-uzd.c
+   52  history git-upload
+   53  history
+   54  history git-upload
+   55  history Class_07
+   56  nano history_test.sh
+   57  history
+   58  history > history_Class07
