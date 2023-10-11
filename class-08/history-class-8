@@ -1,0 +1,67 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/Agnese18/RTR105
+    4  ls -lt
+    5  cd RTR105
+    6  mkdir class-08
+    7  cd class-08
+    8  nano variables.c
+    9  gcc variables.c
+   10  ls -lt
+   11  ./a.out
+   12  nano variables.c
+   13  gcc variables.c
+   14  nano variables.c
+   15  gcc variables.c
+   16  ./a.out
+   17  nano variables.c
+   18  gcc variables.c
+   19  ./a.out
+   20  nano variables.c
+   21  gcc variables.c
+   22  ./a.out
+   23  nano variables.c
+   24  gcc variables.c
+   25  ./a.out
+   26  vp variables.c operations.c
+   27  nano operations.c
+   28  gcc operations.c
+   29  nano operations.c
+   30  gcc operations.c
+   31  nano operations.c
+   32  gcc operations.c
+   33  ./a.out
+   34  nano operations.c
+   35  gcc operations.c
+   36  nano operations.c
+   37  gcc operations.c
+   38  nano operations.c
+   39  gcc operations.c
+   40  nano operations.c
+   41  gcc operations.c
+   42  nano operations.c
+   43  gcc operations.c
+   44  nano operations.c
+   45  gcc operations.c
+   46  nano operations.c
+   47  nano operation2.c
+   48  gcc operation.c
+   49  gcc operation2.c
+   50  ./a.out
+   51  cp operation2.c while.c
+   52  nano while.c
+   53  gcc while.c
+   54  nano while.c
+   55  gcc while.c
+   56  nano while.c
+   57  gcc while.c
+   58  nano while.c
+   59  gcc while.c
+   60  nano while.c
+   61  gcc while.c
+   62  ./a.out
+   63  history git-upload
+   64  history
+   65  history git-upload
+   66  history class-08
+   67  history > history-class-8
