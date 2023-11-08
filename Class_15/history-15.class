@@ -1,0 +1,127 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/Agnese18/RTR105
+    4  ls -lt
+    5  mkdir Class-15
+    6  cd Class-15
+    7  cd RTR105
+    8  cd ...
+    9  cd ..
+   10  cd RTR105
+   11  mkdir Class_15
+   12  cd Class_15
+   13  gnuplot --version
+   14  gnplot
+   15  gnuplot
+   16  nano gnuplot-test.gp
+   17  chmod 775 surface2.1.png
+   18  chmod 744 gnuplot-test.gp
+   19  ls -lt
+   20  ./gnuplot-test.gp
+   21  nano gnuplot-test.gp
+   22  ./gnuplot-test.gp
+   23  nano gnuplot-ex1.gp
+   24  chmod 744 gnuplot-ex1.gp
+   25  ls -lt
+   26  ./gnuplot-ex1.gp
+   27  surface2.4.png
+   28  ls -lt
+   29  nano gnuplot-ex1.gp
+   30  which gnuplot
+   31  chmod 744 gnuplot-ex1.gp
+   32  ls -lt
+   33  ./gnuplot-ex1.gp
+   34  splot
+   35  nano gnuplot-ex1.gp
+   36  ./gnuplot-ex1.gp
+   37  nano gnuplot-ex1.gp
+   38  gnuplot --version
+   39  whereis gnuplot
+   40  which gnuplot
+   41  nono gnuplot-ex1.gp
+   42  nano gnuplot-ex2.gp
+   43  chmod 744 gnuplot-ex2.gp
+   44  ls -lt
+   45  ./gnuplot-ex2.gp
+   46  nano gnuplot-ex3.gp
+   47  chmod 744 gnuplot-ex3.gp
+   48  ls -lt
+   49  ./gnuplot-ex3.gp
+   50  nano gnuplot-ex3.gp
+   51  ./gnuplot-ex3.gp
+   52  nano gnuplot-ex4.gp
+   53  chmod gnuplot-ex4.gp
+   54  chmod 744 gnuplot-ex4.gp
+   55  ls -lt
+   56  ./gnuplot-ex4.gp
+   57  splot
+   58  ./gnuplot-ex2.gp
+   59  nano gnuplot-ex2.gp
+   60  ./gnuplot-ex2.gp
+   61  nano gnuplot-ex2.gp
+   62  ./gnuplot-ex2.gp
+   63  nano gnuplot-ex2.gp
+   64  ./gnuplot-ex2.gp
+   65  nano gnuplot-ex2.gp
+   66  ./gnuplot-ex2.gp
+   67  nano gnuplot-ex2.gp
+   68  ./gnuplot-ex2.gp
+   69  nano gnuplot-ex2.gp
+   70  ./gnuplot-ex2.gp
+   71  nano gnuplot-ex2.gp
+   72  ./gnuplot-ex2.gp
+   73  nano gnuplot-ex2.gp
+   74  ./gnuplot-ex2.gp
+   75  nano gnuplot-ex2.gp
+   76  ./gnuplot-ex2.gp
+   77  nano gnuplot-ex2.gp
+   78  ./gnuplot-ex2.gp
+   79  nano gnuplot-ex2.gp
+   80  ./gnuplot-ex2.gp
+   81  nano gnuplot-ex2.gp
+   82  ./gnuplot-ex2.gp
+   83  nano gnuplot-ex2.gp
+   84  ./gnuplot-ex2.gp
+   85  nano gnuplot-ex2.gp
+   86  ./gnuplot-ex2.gp
+   87  nano gnuplot-ex2.gp
+   88  ./gnuplot-ex2.gp
+   89  nano gnuplot-ex2.gp
+   90  ./gnuplot-ex2.gp
+   91  nano gnuplot-ex2.gp
+   92  ./gnuplot-ex2.gp
+   93  nano gnuplot-ex2.gp
+   94  ./gnuplot-ex2.gp
+   95  nano gnuplot-ex2.gp
+   96  nano versija1.c
+   97  gcc versija1.c -em
+   98  nano versija1.c
+   99  gcc versija1.c -em
+  100  gcc versija1.c -lm
+  101  ls -lt
+  102  ./a.out 
+  103  nano versija1.c
+  104  gcc versija1.c -lm
+  105  ls -lt
+  106  ./a.out
+  107  nano versija2.c
+  108  nano versija1.c
+  109  nano versija2.c
+  110  gcc versija2.c -lm
+  111  ls -lt
+  112  ./a.out
+  113  nano versija3.c
+  114  nano versija2.c
+  115  nano versija3.c
+  116  gcc versija3.c
+  117  nano versija3.c
+  118  gcc versija3.c
+  119  nano versija3.c
+  120  gcc versija3.c -lm
+  121  ls -lt
+  122  ./a.out
+  123  nano versija3.c
+  124  gcc versija3.c -lm
+  125  ./a.out
+  126  history
+  127  history > history-15.class
