@@ -1,0 +1,78 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  git clone https://github.com/Agnese18/RTR105
+    5  ls -lt
+    6  cd RTR105
+    7  mkdir majasd
+    8  cd majasd
+    9  md1.c
+   10  nano md1.c
+   11  gcc md1.c
+   12  ls -lt
+   13  ./a.out
+   14  nano md1.c
+   15  gcc md1.c
+   16  ./a.out
+   17  nano md1.c
+   18  gcc md1.c
+   19  ./a.out
+   20  nano md1.c
+   21  gcc md1.c
+   22  ./a.out
+   23  nano md1.c
+   24  gcc md1.c
+   25  nano md1.c
+   26  gcc md1.c
+   27  ./a.out
+   28  nano md1.c
+   29  nano md2.c
+   30  gcc md2.c
+   31  ./a.out
+   32  nano md2.c
+   33  gcc md2.c
+   34  ./a.out
+   35  nano md2.c
+   36  gcc md2.c
+   37  nano md2.c
+   38  gcc md2.c
+   39  nano md2.c
+   40  gcc md2.c
+   41  ls -lt
+   42  ./a.out
+   43  nano md2.c
+   44  gcc md2.c
+   45  ./a.out
+   46  gcc md2.c
+   47  ./a.out
+   48  gcc md2.c
+   49  nano md2.c
+   50  ./a.out
+   51  nano md2.c
+   52  gcc md2.c
+   53  ./a.out
+   54  nano md2.c
+   55  gcc md2.c
+   56  nano md2.c
+   57  gcc md2.c
+   58  ./a.out
+   59  nano md2.c
+   60  gcc md2.c
+   61  nano md2.c
+   62  gcc md2.c
+   63  ./a.out
+   64  nano md2.c
+   65  ./a.out
+   66  nano md2.c
+   67  gcc md2.c
+   68  nano md2.c
+   69  gcc md2.c
+   70  ./a.out
+   71  nano md2.c
+   72  gcc md2.c
+   73  ./a.out
+   74  ..cd
+   75  .. cd
+   76  cd..
+   77  cd ..
+   78  history > history-majas-darbi
