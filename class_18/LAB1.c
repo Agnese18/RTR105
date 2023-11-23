@@ -1,18 +1,26 @@
 #include<stdio.h>
 #include<math.h>
-double mans-cosh(double x){
+double mans_cosh(double x){
     double a, S;
     int k=0;
 
     a =1;
     S=a;
-    printf("%.2f\t%8.2f\t%8.2f\n", x, a, S);
 
-     while(k<3){
+    printf("\n");
+    //printf("%.2f\t%8.2f\t%8.2f\n", x, a, S);
+    printf("a%5d\t%8.2f    S%5d\t%8.2f\n", k, a, k, S);
+
+     while(k<500){
         k++;
-        a = (pow(x, 2))/(4*pow(k, 2)-2*k);
+        a = a*(pow(x, 2))/(4*pow(k, 2)-2*k);
         S=S +a;
-        printf("%.2f\t%8.2f\t%8.2f\n", x, a, S);
+
+        if (k==0 || k>498){
+        printf("a%5d\t%8.2e    S%5d\t%8.2f\n", k, a, k, S);
+        }
+        else {}
+
     }
  return S;
 }
@@ -20,28 +28,35 @@ double mans-cosh(double x){
 void main(){
 
     double x, y, yy;
-    printf ("cosh aprekinasana:");
+    printf ("cosh aprekinasana:\n");
     printf ("ievadi x vērtību: ");
-    scanf ("%f",&x);
+    scanf ("%lf",&x);
+    
     
     y= cosh(x);
+    printf("cosh(%.2f)=%.2f\n",x, y);
     printf("standarta funkcija cosh - y=cosh(%.2f)=%.2f\n", x,y);
     
 
-    yy= mans-cosh (x);
+    yy= mans_cosh (x);
    
     printf("lietotaja funkcija - y= mans-cosh(%.2f) caur summu : %.2f\n", x, yy);
     
-    printf("           500");
-    printf("          ______");
-    printf("          \ ");
-    printf("           \ ");
-    printf("            \            (pow(x, 2*k))");
-    printf("cosh(%.2f)=  >        ________________________");
-    printf("             /             ( 2 * k)!");
-    printf("            /");
-    printf("           /");
-    printf("           ______");
-    printf("             k=0");
+    printf("           500\n");
+    printf("          ______\n");
+    printf("          \\          \n");
+    printf("           \\ \n");
+    printf("            \\            (pow(x, 2*k))\n");
+    printf("cosh(%.2f)=  >        ________________________\n", x);
+    printf("             /             ( 2 * k)!\n");
+    printf("            /\n");
+    printf("           /\n");
+    printf("           ______\n");
+    printf("             k=0\n");
 
+    printf(" \n");
+    printf("                   2*k  \n");
+    printf("                 X  \n");
+    printf("reizinātājs:  _________  \n");
+    printf("              (2 *k)!     \n");
 }
