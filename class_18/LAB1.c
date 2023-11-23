@@ -59,4 +59,8 @@ void main(){
     printf("                 X  \n");
     printf("reizinātājs:  _________  \n");
     printf("              (2 *k)!     \n");
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 87f752ae4c6380f01a6c57527bbd0cfee122eb7c
