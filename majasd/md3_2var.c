@@ -51,7 +51,7 @@ if (seciba==0){
 
 if (a<b && a<c){
         printf(" %d\n", a);
-if (b>c){
+if (b<c){
            printf(" %d\n",b);
            printf(" %d\n", c);
 } else {
@@ -61,7 +61,7 @@ if (b>c){
     }
     if (b<a && b<c){
         printf(" %d\n", b);
-        if (a>c){
+        if (a<c){
             printf(" %d\n", a);
             printf(" %d\n", c);
         } else {
@@ -71,7 +71,7 @@ if (b>c){
     }
     if (c<a && c<b){
         printf(" %d\n", c);
-        if(a>b){
+        if(a<b){
             printf(" %d\n", a);
             printf(" %d\n", b);
         } else {
@@ -79,5 +79,6 @@ if (b>c){
             printf(" %d\n", a);
         }
 
+}
 }
 }
