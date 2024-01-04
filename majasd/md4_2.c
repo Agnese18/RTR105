@@ -60,7 +60,7 @@ i_long = 1;
  
         factorial_long *= i_long;
         printf("faktorials no  %lld =  %lld \n", number_long, factorial_long);
-        ++i_char;
+        ++i_long;
     }
     
     return 0;
