@@ -18,9 +18,9 @@ int main()
 if (a==1){  //char tips
     printf("nummurs char_datu tipam ir =");
     scanf("%hhd",&number_char);
-i_char = 1; 
-    for (i_char <= number_char ; factorial_char *= i_char; ++i_char){ 
-    
+
+    for (i_char = 1; i_char <= number_char ; factorial_char *= i_char){ 
+    ++i_char;
     //(i_char = 1; i_char <= number_char; ++i_char); 
  
         //factorial_char *= i_char;
@@ -37,9 +37,9 @@ i_char = 1;
 if (a==2){  //int tips
     printf("nummurs int_datu tipam ir =");
     scanf("%d",&number_int);
-i_int = 1; 
-    for (i_int <= number_int ; factorial_int *= i_int; ++i_int){
-    
+
+    for (i_int = 1; i_int <= number_int ; factorial_int *= i_int){
+    ++i_int;
     
     //(i_char = 1; i_char <= number_char; ++i_char); 
  
@@ -55,9 +55,9 @@ i_int = 1;
     if (a==3){  //long long tips
    printf("nummurs char_datu tipam ir =");
     scanf(" %lld",&number_long);
-i_long = 1; 
-    for (i_long <= number_long ; factorial_long *= i_long; ++i_long){ 
-    
+
+    for (i_long = 1; i_long <= number_long ; factorial_long *= i_long){ 
+    ++i_long;
     //(i_char = 1; i_char <= number_char; ++i_char); 
  
         //  factorial_long *= i_long;
