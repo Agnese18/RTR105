@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include "file.c"
-#include "file2.c"
-#include "file3.c"
-#include "file3.c"
+#include "foo1.h"
+#include "foo2.h"
+#include "foo3.h"
+#include "foo4.h"
 
-int main ()
+int main (void)
 {
     
 task1();

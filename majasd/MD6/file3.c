@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "foo3.h"
 
 void task3 () { 
    

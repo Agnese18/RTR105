@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "foo4.h"
 
 void task4 () { 
  int a, b , reizinajums;
