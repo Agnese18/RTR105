@@ -19,6 +19,9 @@ if (a==1){  //char tips
     printf("nummurs char_datu tipam ir =");
     scanf("%hhd",&number_char);
 
+if (number_char < 0) {
+            printf("Factoriāls nevar būt negatīvs.\n");
+        } else {
     for (i_char = 1; i_char <= number_char ; factorial_char *= i_char){ 
     ++i_char;
     //(i_char = 1; i_char <= number_char; ++i_char); 
@@ -27,7 +30,7 @@ if (a==1){  //char tips
         printf("faktorials no %hhd = %hhd \n", number_char, factorial_char);
        // ++i_char;
     }
-    
+        }
     return 0;
     
 }
@@ -38,6 +41,9 @@ if (a==2){  //int tips
     printf("nummurs int_datu tipam ir =");
     scanf("%d",&number_int);
 
+if (number_int < 0) {
+            printf("Factoriāls nevar būt negatīvs.\n");
+        } else {
     for (i_int = 1; i_int <= number_int ; factorial_int *= i_int){
     ++i_int;
     
@@ -47,7 +53,7 @@ if (a==2){  //int tips
         printf("faktorials no %d = %d \n", number_int, factorial_int);
       //  ++i_int;
     }
-    
+        }
     return 0;
 }
 
@@ -56,6 +62,9 @@ if (a==2){  //int tips
    printf("nummurs char_datu tipam ir =");
     scanf(" %lld",&number_long);
 
+if (number_long < 0) {
+            printf("Factoriāls nevar būt negatīvs.\n");
+        } else {
     for (i_long = 1; i_long <= number_long ; factorial_long *= i_long){ 
     ++i_long;
     //(i_char = 1; i_char <= number_char; ++i_char); 
@@ -64,7 +73,7 @@ if (a==2){  //int tips
         printf("faktorials no  %lld =  %lld \n", number_long, factorial_long);
        //  ++i_char;
     }
-    
+        }
     return 0;
 }
 }
