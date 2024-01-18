@@ -18,7 +18,10 @@ int main()
 if (a==1){  //char tips
     printf("nummurs char_datu tipam ir =");
     scanf("%hhd",&number_char);
-i_char = 1; 
+i_char = 1;
+if (number_char < 0) {
+            printf("Factoriāls nevar būt negatīvs.\n");
+        } else {
     while (i_char <= number_char){ 
     
     //(i_char = 1; i_char <= number_char; ++i_char); 
@@ -29,7 +32,7 @@ i_char = 1;
     }
     
     return 0;
-    
+        }
 }
 
 
@@ -38,6 +41,10 @@ if (a==2){  //int tips
     printf("nummurs int_datu tipam ir =");
     scanf("%d",&number_int);
 i_int = 1; 
+
+if (number_int < 0) {
+            printf("Factoriāls nevar būt negatīvs.\n");
+        } else {
     while (i_int <= number_int){ 
     
     //(i_char = 1; i_char <= number_char; ++i_char); 
@@ -48,12 +55,17 @@ i_int = 1;
     }
     
     return 0;
+        }
 }
 
 if (a==3){  //long long tips
    printf("nummurs char_datu tipam ir =");
     scanf(" %lld",&number_long);
 i_long = 1; 
+
+if (number_long < 0) {
+            printf("Factoriāls nevar būt negatīvs.\n");
+        } else {
     while (i_long <= number_long){ 
     
     //(i_char = 1; i_char <= number_char; ++i_char); 
@@ -64,5 +76,6 @@ i_long = 1;
     }
     
     return 0;
+        }
 }
 }
