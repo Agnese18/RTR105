@@ -12,7 +12,7 @@ scanf("%d", &b);
 printf("ievadi skaitli c=\n");
 scanf("%d", &c);
 
-if (seciba==1){
+if (seciba==0){
 
 if (a>b && a>c){
         printf(" %d\n", a);
@@ -47,7 +47,7 @@ if (b>c){
 }
 }
 
-if (seciba==0){
+if (seciba==1){
 
 if (a<b && a<c){
         printf(" %d\n", a);
